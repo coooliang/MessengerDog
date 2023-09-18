@@ -8,6 +8,7 @@
 ![License](https://img.shields.io/github/license/coooliang/MessengerDog)
 ![Version](https://img.shields.io/github/v/tag/coooliang/MessengerDog)
 ![platforms](https://img.shields.io/cocoapods/p/MessengerDog)
+![language](https://img.shields.io/github/languages/top/coooliang/MessengerDog)
 
 
 ### 1.继承MDBasePlugin
