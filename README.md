@@ -5,6 +5,9 @@
 
 --------------------------
 
+![GitHub](https://img.shields.io/github/license/coooliang/MessengerDog)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/coooliang/MessengerDog)
+
 
 ### 1.继承MDBasePlugin
 
