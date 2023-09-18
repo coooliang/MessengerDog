@@ -1,0 +1,1 @@
+../../../../../../MessengerDog/Classes/MDSafe.h

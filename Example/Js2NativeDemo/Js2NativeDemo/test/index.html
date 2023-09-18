@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+        <meta name="format-detection" content="telephone=no"/>
+        <title>demo</title>
+                
+        <script type="text/javascript">
+            function globalSuccessCallback(rs){
+                alert(rs);
+            }
+            
+            function hello(){
+                var params = {
+                    success:function(data){alert(1);},
+                    message:{
+                        "name":"coooliang",
+                        'value':"666",
+                        age:123
+                    }
+                };
+                window.yyptPlugins.infoPlugin.hello(params);
+            }
+        
+            function hello2(){
+                var params = {
+                    success:function(data){alert(1);}
+                };
+                window.yyptPlugins.infoPlugin.hello(params);
+            }
+        
+            function world(){
+                var params = {
+                    success:globalSuccessCallback,
+                    message:{
+                        name:"coooliang",
+                        "value":"123"
+                    }
+                };
+                window.yyptPlugins.infoPlugin.world(params);
+            }
+        
+            function keyboard(){
+                var params = {
+                    success:function(text){
+                        document.getElementById('test').value = text;
+                    },
+                    message:{
+                        "nid":"test"
+                    }
+                };
+                if(mdHasObject("window.yyptPlugins.infoPlugin.keyboard")){
+                    window.yyptPlugins.infoPlugin.keyboard(params);
+                }
+            }
+            
+            function nextStepJson(){
+                window.yyptPlugins.urlPlugin.nextStepJson();
+            }
+        </script>
+    </head>
+    <body>
+        index.html
+        <button onclick="hello()">hello</button>
+        <button onclick="hello2()">hello2</button>
+        <button onclick="world()">world</button>
+        <button onclick="keyboard()">keyboard</button>
+        
+        <button onclick="nextStepJson()">nextStepJson</button>
+        
+        <input id="test" type="text"/>
+    </body>
+</html>

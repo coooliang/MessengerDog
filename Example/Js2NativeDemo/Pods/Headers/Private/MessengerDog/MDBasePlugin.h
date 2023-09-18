@@ -1,0 +1,1 @@
+../../../../../../MessengerDog/Classes/MDBasePlugin.h

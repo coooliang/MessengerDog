@@ -1,0 +1,16 @@
+PODS:
+  - MessengerDog (0.1.0)
+
+DEPENDENCIES:
+  - MessengerDog (from `/Users/lion/messenger-dog/MessengerDog-oc`)
+
+EXTERNAL SOURCES:
+  MessengerDog:
+    :path: "/Users/lion/messenger-dog/MessengerDog-oc"
+
+SPEC CHECKSUMS:
+  MessengerDog: 9ae9ae2fd2ca5ca76151d00f2ef8b53239a8e278
+
+PODFILE CHECKSUM: 97f8731e2d86a42e47faa57b50ee8e3a26311a15
+
+COCOAPODS: 1.12.1

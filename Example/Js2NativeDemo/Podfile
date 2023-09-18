@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'Js2NativeDemo' do
+    pod 'MessengerDog', :path => '/Users/lion/messenger-dog/MessengerDog-oc'
+end
