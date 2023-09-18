@@ -5,8 +5,10 @@
 
 --------------------------
 
-![GitHub](https://img.shields.io/github/license/coooliang/MessengerDog)
-![GitHub tag (with filter)](https://img.shields.io/github/v/tag/coooliang/MessengerDog)
+![License](https://img.shields.io/github/license/coooliang/MessengerDog)
+![Version](https://img.shields.io/github/v/tag/coooliang/MessengerDog)
+![tag](https://img.shields.io/github/v/tag/coooliang/MessagerDog)
+![platforms](https://img.shields.io/cocoapods/p/MessagerDog)
 
 
 ### 1.继承MDBasePlugin
