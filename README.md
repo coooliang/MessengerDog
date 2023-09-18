@@ -16,7 +16,8 @@
 ```
 
 ### 2.使用注解将插件的方法公开
-```
+
+```objective-c
 
 //使用注解公开插件
 @Public(InfoPlugin,hello)
@@ -42,7 +43,8 @@ WKUserScript *userScript = [[WKUserScript alloc] initWithSource:[MDInjectJS js] 
 ```
 
 ### 4.WKWebView拦截url
-```
+
+```objective-c
 #pragma mark - WKNavigationDelegate
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     NSString *url = navigationAction.request.URL.absoluteString;
