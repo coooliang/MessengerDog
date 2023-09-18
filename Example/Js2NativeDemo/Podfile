@@ -5,5 +5,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 
 target 'Js2NativeDemo' do
-    pod 'MessengerDog', :path => '/Users/lion/messenger-dog/MessengerDog-oc'
+    pod 'MessengerDog', :path => '/Users/lion/sourcetree-workspace/librarys/MessengerDog'
 end

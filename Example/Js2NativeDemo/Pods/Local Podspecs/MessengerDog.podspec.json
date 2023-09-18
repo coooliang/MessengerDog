@@ -1,9 +1,9 @@
 {
   "name": "MessengerDog",
-  "version": "0.1.0",
-  "summary": "A short description of MessengerDog.",
+  "version": "1.0.1",
+  "summary": "MessengerDog is a implement html and native communication framework.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/coooliang/messenger-dog",
+  "homepage": "https://github.com/coooliang/MessengerDog.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "chenliang": "coooliang"
   },
   "source": {
-    "git": "https://github.com/CocoaPods/Specs.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/coooliang/MessengerDog.git",
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
