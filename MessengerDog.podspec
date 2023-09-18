@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/coooliang/MessengerDog.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenliang' => 'coooliang' }
-  s.source           = { :git => 'https://github.com/CocoaPods/Specs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/coooliang/MessengerDog.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   s.source_files = 'MessengerDog/Classes/**/*'
