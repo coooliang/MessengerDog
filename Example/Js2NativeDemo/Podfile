@@ -1,9 +1,12 @@
 platform :ios, '9.0'
 inhibit_all_warnings!
 
-source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+
+source 'https://cdn.cocoapods.org/'
 
 
 target 'Js2NativeDemo' do
-    pod 'MessengerDog', :path => '/Users/lion/sourcetree-workspace/librarys/MessengerDog'
+#    pod 'MessengerDog', :path => '/Users/lion/sourcetree-workspace/librarys/MessengerDog'
+    pod 'MessengerDog'
 end

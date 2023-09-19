@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MessengerDog'
-  s.version          = '1.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'MessengerDog is a implement html and native communication framework.'
 
 # This description is used to generate tags and improve search results.

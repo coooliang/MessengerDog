@@ -2,6 +2,7 @@
 
 <img src="./MessengerDog.png"/><br/>
 
+ MessengerDog是Hybrid App开发中，用于iOS的javascript与native通信的实现方案，吸收了Struts2框架Interceptor的理念来实现模块间的耦合。
 
 --------------------------
 
