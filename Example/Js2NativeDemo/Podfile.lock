@@ -1,5 +1,5 @@
 PODS:
-  - MessengerDog (1.0.0)
+  - MessengerDog (1.0.1)
 
 DEPENDENCIES:
   - MessengerDog
@@ -9,7 +9,7 @@ SPEC REPOS:
     - MessengerDog
 
 SPEC CHECKSUMS:
-  MessengerDog: 282617d24671e1a79fe9bad43203b3983012fa1e
+  MessengerDog: ae6344a4d9d27736158b407f14cc4d84400ddb0d
 
 PODFILE CHECKSUM: 56fbc742d6ebeb92d448f22c658d9016ae52e93d
 

@@ -2,8 +2,14 @@
 
 <img src="./MessengerDog.png"/><br/>
 
+ MessengerDog是Hybrid App开发中，用于iOS的javascript与native通信的实现方案，吸收了Struts2框架Interceptor的理念来实现模块间的耦合。
 
 --------------------------
+
+![License](https://img.shields.io/github/license/coooliang/MessengerDog)
+![Version](https://img.shields.io/github/v/tag/coooliang/MessengerDog)
+![platforms](https://img.shields.io/cocoapods/p/MessengerDog)
+![language](https://img.shields.io/github/languages/top/coooliang/MessengerDog)
 
 
 ### 1.继承MDBasePlugin
