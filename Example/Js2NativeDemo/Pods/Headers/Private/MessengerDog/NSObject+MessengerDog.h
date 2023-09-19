@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/NSObject+MessengerDog.h
+../../../MessengerDog/MessengerDog/Classes/NSObject+MessengerDog.h

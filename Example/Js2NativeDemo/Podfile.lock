@@ -2,15 +2,15 @@ PODS:
   - MessengerDog (1.0.0)
 
 DEPENDENCIES:
-  - MessengerDog (from `/Users/lion/sourcetree-workspace/librarys/MessengerDog`)
+  - MessengerDog
 
-EXTERNAL SOURCES:
-  MessengerDog:
-    :path: "/Users/lion/sourcetree-workspace/librarys/MessengerDog"
+SPEC REPOS:
+  trunk:
+    - MessengerDog
 
 SPEC CHECKSUMS:
   MessengerDog: 282617d24671e1a79fe9bad43203b3983012fa1e
 
-PODFILE CHECKSUM: ebfdce068c4ea035afd9d3aab3a302a476509b36
+PODFILE CHECKSUM: 56fbc742d6ebeb92d448f22c658d9016ae52e93d
 
 COCOAPODS: 1.12.1

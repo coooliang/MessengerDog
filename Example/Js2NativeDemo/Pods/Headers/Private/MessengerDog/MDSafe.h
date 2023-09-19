@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/MDSafe.h
+../../../MessengerDog/MessengerDog/Classes/MDSafe.h

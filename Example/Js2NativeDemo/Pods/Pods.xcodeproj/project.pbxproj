@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D50563BE5DB15DDF9317DCD7DB31B3 /* MDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E015387825AE81241AC499961234C9 /* MDConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1407AE040ABBF1745346E3CB126958FF /* MDBasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E70665713E76518B37ACE16BC61C4CA /* MDBasePlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1E27619EE6AAAD7CD152A4981DEF726A /* MDInjectJS.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E12F204834842A5CC4AAB1036BA336 /* MDInjectJS.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		307EC672A082E686210F5873D4E89687 /* MDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4CB14FA8225A309B934E5CC3BDBDA1 /* MDConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3DAC49F31C0D8E99A311A3C3171BB720 /* MessengerDog.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B185DEB4F9FEF110A8DDDF928AFF49 /* MessengerDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4409579F35F887D42178B284F1B320A4 /* MessengerDog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C27AFB3D4497058E5A46718A9F75E58 /* MessengerDog-dummy.m */; };
+		04D50563BE5DB15DDF9317DCD7DB31B3 /* MDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A3A03AFCA871C85BF3FE30070BD75 /* MDConfig.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1407AE040ABBF1745346E3CB126958FF /* MDBasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D34D716DCC216BF25FB066AF66A987 /* MDBasePlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E27619EE6AAAD7CD152A4981DEF726A /* MDInjectJS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2230457C7F5692BD1CF9FD0377CCBEC4 /* MDInjectJS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		307EC672A082E686210F5873D4E89687 /* MDConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8927F679A1D027712FC208A9578E22DA /* MDConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DAC49F31C0D8E99A311A3C3171BB720 /* MessengerDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 43392C9F3E1219068E28F3946BE9D5C4 /* MessengerDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4409579F35F887D42178B284F1B320A4 /* MessengerDog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE9B4347DB2732EE55B66B4C97D2AD /* MessengerDog-dummy.m */; };
 		67741DC8C208521309A6165102CF0BDB /* Pods-Js2NativeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA740E14508EDECE1D1D1D150F9207C /* Pods-Js2NativeDemo-dummy.m */; };
-		6990FAC4287031247FF3CFEE0EC0574A /* MDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF5B1744B66063EAC2C78A64AEC239 /* MDCommon.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7ED8A413A6C43E64D193BA7AACD308E6 /* MDSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 589EE4B267CDA1EC75A5EA2458A89822 /* MDSafe.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		837E24B9F91C5870EC455846CB3A11EC /* MDInjectJS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F441002D4861990C5AD21011927AA67 /* MDInjectJS.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		857CD4EAAB52242A2A60BC5973EECAF2 /* MDBasePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = A207E2F632EDBA6FC81B45DB1E514569 /* MDBasePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8F85E858952C6BBBB8CCBCC648A5386B /* NSObject+MessengerDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 194222DC75D359E7E0A3E73B9850FFBA /* NSObject+MessengerDog.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9053CDA1590F88F8AF3C2FE21284E706 /* MDAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5980C885FC872DED302A1CE34D93A8D0 /* MDAnnotation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A4C984B51628057E458C80FF556C1757 /* MDPluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0450D9BCE7DD6343C309746F2AC2F7 /* MDPluginFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6E7ED8BC6DF9B8FE3F3C1C043BA33D7 /* MDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF9D258364392B076B5E80D5FD88416 /* MDCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D32AAFDF7F926FBE705A83D90AD78D5D /* MDPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5661AF698BC5AD8E824F78AD83E105D8 /* MDPluginManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA231C913994273ADE171E10B71D6147 /* NSObject+MessengerDog.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DC6ACABD2B29DE8DB6A828E676CDF3 /* NSObject+MessengerDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F02525C04B866506B1F747AA38E27E14 /* MDAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B23FF4E4A787E0E6FA585A6A8731368C /* MDAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F74B1779E5C96F5BD4F8A870B1089937 /* MDPluginFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F6A9D9A31D75C2891577D7542E301E /* MDPluginFilter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F9DC26703539EF9A5FF2F8B028B6510E /* MDPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7232E17D41C3A4871FFDFD6B1EF99C7 /* MDPluginManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FB593BC19DA6B47F1F528BDB0CEFE717 /* MDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA47380D811EE65FA537D64F03F06675 /* MDSafe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6990FAC4287031247FF3CFEE0EC0574A /* MDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C009A8B12301EF0632345050665A6C /* MDCommon.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7ED8A413A6C43E64D193BA7AACD308E6 /* MDSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF3FD36341955D7D6BB05456C866353 /* MDSafe.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		837E24B9F91C5870EC455846CB3A11EC /* MDInjectJS.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFAD4F8EB8A2D01A6D15CAC8E8F863A /* MDInjectJS.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		857CD4EAAB52242A2A60BC5973EECAF2 /* MDBasePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF64DF02A4C97E7E563632D55F4B902 /* MDBasePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F85E858952C6BBBB8CCBCC648A5386B /* NSObject+MessengerDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AA1B4539CD24AB5B2999376EFD0073 /* NSObject+MessengerDog.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9053CDA1590F88F8AF3C2FE21284E706 /* MDAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7D6E7CE1032D45E47025302C3AEC7 /* MDAnnotation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4C984B51628057E458C80FF556C1757 /* MDPluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 198E9E70BEF512676D68A05824ABA540 /* MDPluginFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6E7ED8BC6DF9B8FE3F3C1C043BA33D7 /* MDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 86218502BBA1A2A5D3694CE26F07BECD /* MDCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D32AAFDF7F926FBE705A83D90AD78D5D /* MDPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9706079D63EB62FC87AB144AFF0FB13C /* MDPluginManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA231C913994273ADE171E10B71D6147 /* NSObject+MessengerDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 806E53980FBA485F5BEF4AEC23DD4A60 /* NSObject+MessengerDog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F02525C04B866506B1F747AA38E27E14 /* MDAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9FA5ACB2396BF8655E8F9328BDEFCB /* MDAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F74B1779E5C96F5BD4F8A870B1089937 /* MDPluginFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A67E1AD49C82B662DF7D6FE164EEA860 /* MDPluginFilter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9DC26703539EF9A5FF2F8B028B6510E /* MDPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A409BDF3998ED43FD179A6BD178925D /* MDPluginManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB593BC19DA6B47F1F528BDB0CEFE717 /* MDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = DB706A2F1371934E8AFE73C245C6209A /* MDSafe.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D4686304CC16B9929693C1FF4F588A91 /* PBXContainerItemProxy */ = {
+		3A63214E5101B5A8400F70C62BC21273 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,39 +42,36 @@
 
 /* Begin PBXFileReference section */
 		03F96751BAD725E30D901B57AA82DC2B /* MessengerDog */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MessengerDog; path = libMessengerDog.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F441002D4861990C5AD21011927AA67 /* MDInjectJS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDInjectJS.m; path = MessengerDog/Classes/MDInjectJS.m; sourceTree = "<group>"; };
-		194222DC75D359E7E0A3E73B9850FFBA /* NSObject+MessengerDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MessengerDog.m"; path = "MessengerDog/Classes/NSObject+MessengerDog.m"; sourceTree = "<group>"; };
-		3FAF5B1744B66063EAC2C78A64AEC239 /* MDCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCommon.m; path = MessengerDog/Classes/MDCommon.m; sourceTree = "<group>"; };
+		085A3A03AFCA871C85BF3FE30070BD75 /* MDConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDConfig.m; path = MessengerDog/Classes/MDConfig.m; sourceTree = "<group>"; };
+		15FE9B4347DB2732EE55B66B4C97D2AD /* MessengerDog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessengerDog-dummy.m"; sourceTree = "<group>"; };
+		198E9E70BEF512676D68A05824ABA540 /* MDPluginFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDPluginFilter.h; path = MessengerDog/Classes/MDPluginFilter.h; sourceTree = "<group>"; };
+		2230457C7F5692BD1CF9FD0377CCBEC4 /* MDInjectJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDInjectJS.h; path = MessengerDog/Classes/MDInjectJS.h; sourceTree = "<group>"; };
+		2A409BDF3998ED43FD179A6BD178925D /* MDPluginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDPluginManager.m; path = MessengerDog/Classes/MDPluginManager.m; sourceTree = "<group>"; };
+		2DF64DF02A4C97E7E563632D55F4B902 /* MDBasePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDBasePlugin.h; path = MessengerDog/Classes/MDBasePlugin.h; sourceTree = "<group>"; };
+		32D34D716DCC216BF25FB066AF66A987 /* MDBasePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDBasePlugin.m; path = MessengerDog/Classes/MDBasePlugin.m; sourceTree = "<group>"; };
+		43392C9F3E1219068E28F3946BE9D5C4 /* MessengerDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessengerDog.h; path = MessengerDog/Classes/MessengerDog.h; sourceTree = "<group>"; };
 		43B46F875A0E7666693C8527652A7AD7 /* Pods-Js2NativeDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Js2NativeDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		48E12F204834842A5CC4AAB1036BA336 /* MDInjectJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDInjectJS.h; path = MessengerDog/Classes/MDInjectJS.h; sourceTree = "<group>"; };
-		4FF9D258364392B076B5E80D5FD88416 /* MDCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCommon.h; path = MessengerDog/Classes/MDCommon.h; sourceTree = "<group>"; };
-		5661AF698BC5AD8E824F78AD83E105D8 /* MDPluginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDPluginManager.h; path = MessengerDog/Classes/MDPluginManager.h; sourceTree = "<group>"; };
-		589EE4B267CDA1EC75A5EA2458A89822 /* MDSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSafe.h; path = MessengerDog/Classes/MDSafe.h; sourceTree = "<group>"; };
-		5980C885FC872DED302A1CE34D93A8D0 /* MDAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDAnnotation.m; path = MessengerDog/Classes/MDAnnotation.m; sourceTree = "<group>"; };
-		5A4F76FD3E3874E3C20EAA9CCF5A0E37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5E70665713E76518B37ACE16BC61C4CA /* MDBasePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDBasePlugin.m; path = MessengerDog/Classes/MDBasePlugin.m; sourceTree = "<group>"; };
-		66505B8AA0D5D058DC6D314006F25A1F /* MessengerDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessengerDog.release.xcconfig; sourceTree = "<group>"; };
-		6A6D293DCA4F57510F771342802D16D3 /* MessengerDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessengerDog.debug.xcconfig; sourceTree = "<group>"; };
+		4AF3FD36341955D7D6BB05456C866353 /* MDSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSafe.h; path = MessengerDog/Classes/MDSafe.h; sourceTree = "<group>"; };
+		4B245B2DD139E0D711D8E8CD73CA8766 /* MessengerDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessengerDog.debug.xcconfig; sourceTree = "<group>"; };
+		4EF7D6E7CE1032D45E47025302C3AEC7 /* MDAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDAnnotation.m; path = MessengerDog/Classes/MDAnnotation.m; sourceTree = "<group>"; };
+		58AA1B4539CD24AB5B2999376EFD0073 /* NSObject+MessengerDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MessengerDog.m"; path = "MessengerDog/Classes/NSObject+MessengerDog.m"; sourceTree = "<group>"; };
+		5C0B8B592328AD4CA0AE96437D9C76B3 /* MessengerDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessengerDog.release.xcconfig; sourceTree = "<group>"; };
 		6BA740E14508EDECE1D1D1D150F9207C /* Pods-Js2NativeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Js2NativeDemo-dummy.m"; sourceTree = "<group>"; };
-		6C27AFB3D4497058E5A46718A9F75E58 /* MessengerDog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessengerDog-dummy.m"; sourceTree = "<group>"; };
-		7688B1F784A5A026C98EC8651092F732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		793FB669A201D448C28AE5C4F5975220 /* Pods-Js2NativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Js2NativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		803B17A8E2760A67EB620BBAE8C89447 /* MessengerDog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessengerDog-prefix.pch"; sourceTree = "<group>"; };
-		966EEF97084C75FCE074F6D0B34B2F5C /* MessengerDog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MessengerDog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97F6A9D9A31D75C2891577D7542E301E /* MDPluginFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDPluginFilter.m; path = MessengerDog/Classes/MDPluginFilter.m; sourceTree = "<group>"; };
+		7E9FA5ACB2396BF8655E8F9328BDEFCB /* MDAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDAnnotation.h; path = MessengerDog/Classes/MDAnnotation.h; sourceTree = "<group>"; };
+		806E53980FBA485F5BEF4AEC23DD4A60 /* NSObject+MessengerDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MessengerDog.h"; path = "MessengerDog/Classes/NSObject+MessengerDog.h"; sourceTree = "<group>"; };
+		86218502BBA1A2A5D3694CE26F07BECD /* MDCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCommon.h; path = MessengerDog/Classes/MDCommon.h; sourceTree = "<group>"; };
+		8927F679A1D027712FC208A9578E22DA /* MDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDConfig.h; path = MessengerDog/Classes/MDConfig.h; sourceTree = "<group>"; };
+		9706079D63EB62FC87AB144AFF0FB13C /* MDPluginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDPluginManager.h; path = MessengerDog/Classes/MDPluginManager.h; sourceTree = "<group>"; };
+		97C009A8B12301EF0632345050665A6C /* MDCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCommon.m; path = MessengerDog/Classes/MDCommon.m; sourceTree = "<group>"; };
 		9A44780FD5D87FE8A16C7BCAACFE73F6 /* Pods-Js2NativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Js2NativeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A207E2F632EDBA6FC81B45DB1E514569 /* MDBasePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDBasePlugin.h; path = MessengerDog/Classes/MDBasePlugin.h; sourceTree = "<group>"; };
-		AA47380D811EE65FA537D64F03F06675 /* MDSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSafe.m; path = MessengerDog/Classes/MDSafe.m; sourceTree = "<group>"; };
+		A67E1AD49C82B662DF7D6FE164EEA860 /* MDPluginFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDPluginFilter.m; path = MessengerDog/Classes/MDPluginFilter.m; sourceTree = "<group>"; };
 		AE662BDF8D571318A31326B7BDA731F1 /* Pods-Js2NativeDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Js2NativeDemo"; path = "libPods-Js2NativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B23FF4E4A787E0E6FA585A6A8731368C /* MDAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDAnnotation.h; path = MessengerDog/Classes/MDAnnotation.h; sourceTree = "<group>"; };
-		B7232E17D41C3A4871FFDFD6B1EF99C7 /* MDPluginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDPluginManager.m; path = MessengerDog/Classes/MDPluginManager.m; sourceTree = "<group>"; };
-		D5B185DEB4F9FEF110A8DDDF928AFF49 /* MessengerDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessengerDog.h; path = MessengerDog/Classes/MessengerDog.h; sourceTree = "<group>"; };
-		E3DC6ACABD2B29DE8DB6A828E676CDF3 /* NSObject+MessengerDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MessengerDog.h"; path = "MessengerDog/Classes/NSObject+MessengerDog.h"; sourceTree = "<group>"; };
-		E3E015387825AE81241AC499961234C9 /* MDConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDConfig.m; path = MessengerDog/Classes/MDConfig.m; sourceTree = "<group>"; };
-		EC0450D9BCE7DD6343C309746F2AC2F7 /* MDPluginFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDPluginFilter.h; path = MessengerDog/Classes/MDPluginFilter.h; sourceTree = "<group>"; };
+		B28F3604C16939FDFFE11602085F8121 /* MessengerDog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessengerDog-prefix.pch"; sourceTree = "<group>"; };
+		DB706A2F1371934E8AFE73C245C6209A /* MDSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSafe.m; path = MessengerDog/Classes/MDSafe.m; sourceTree = "<group>"; };
+		EDFAD4F8EB8A2D01A6D15CAC8E8F863A /* MDInjectJS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDInjectJS.m; path = MessengerDog/Classes/MDInjectJS.m; sourceTree = "<group>"; };
 		F631922C5315359588BA941BAD1DDC81 /* Pods-Js2NativeDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Js2NativeDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF4CB14FA8225A309B934E5CC3BDBDA1 /* MDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDConfig.h; path = MessengerDog/Classes/MDConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,16 +92,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		277340D9F7D6B16A2F4D6B761F32CB1F /* Support Files */ = {
+		2983E7C6B8E537077AD91D58ADD15C91 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C27AFB3D4497058E5A46718A9F75E58 /* MessengerDog-dummy.m */,
-				803B17A8E2760A67EB620BBAE8C89447 /* MessengerDog-prefix.pch */,
-				6A6D293DCA4F57510F771342802D16D3 /* MessengerDog.debug.xcconfig */,
-				66505B8AA0D5D058DC6D314006F25A1F /* MessengerDog.release.xcconfig */,
+				5A870B0EFD2697A464AA7F05FE747DE1 /* MessengerDog */,
 			);
-			name = "Support Files";
-			path = "Example/Js2NativeDemo/Pods/Target Support Files/MessengerDog";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3077E10423F0A1AA8EEC99ACE9C56107 /* Targets Support Files */ = {
@@ -115,12 +108,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		50C71F57081D55DCC49B300FD0E1A521 /* Development Pods */ = {
+		473ACF274AB01DF8DA7049A0A76D3598 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				54B89CDFCEE5B80D7EC5555D2688E653 /* MessengerDog */,
+				15FE9B4347DB2732EE55B66B4C97D2AD /* MessengerDog-dummy.m */,
+				B28F3604C16939FDFFE11602085F8121 /* MessengerDog-prefix.pch */,
+				4B245B2DD139E0D711D8E8CD73CA8766 /* MessengerDog.debug.xcconfig */,
+				5C0B8B592328AD4CA0AE96437D9C76B3 /* MessengerDog.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/MessengerDog";
 			sourceTree = "<group>";
 		};
 		547F9FA4A3F6B298AFEB9E4F41731B12 /* Products */ = {
@@ -132,34 +129,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54B89CDFCEE5B80D7EC5555D2688E653 /* MessengerDog */ = {
+		5A870B0EFD2697A464AA7F05FE747DE1 /* MessengerDog */ = {
 			isa = PBXGroup;
 			children = (
-				B23FF4E4A787E0E6FA585A6A8731368C /* MDAnnotation.h */,
-				5980C885FC872DED302A1CE34D93A8D0 /* MDAnnotation.m */,
-				A207E2F632EDBA6FC81B45DB1E514569 /* MDBasePlugin.h */,
-				5E70665713E76518B37ACE16BC61C4CA /* MDBasePlugin.m */,
-				4FF9D258364392B076B5E80D5FD88416 /* MDCommon.h */,
-				3FAF5B1744B66063EAC2C78A64AEC239 /* MDCommon.m */,
-				FF4CB14FA8225A309B934E5CC3BDBDA1 /* MDConfig.h */,
-				E3E015387825AE81241AC499961234C9 /* MDConfig.m */,
-				48E12F204834842A5CC4AAB1036BA336 /* MDInjectJS.h */,
-				0F441002D4861990C5AD21011927AA67 /* MDInjectJS.m */,
-				EC0450D9BCE7DD6343C309746F2AC2F7 /* MDPluginFilter.h */,
-				97F6A9D9A31D75C2891577D7542E301E /* MDPluginFilter.m */,
-				5661AF698BC5AD8E824F78AD83E105D8 /* MDPluginManager.h */,
-				B7232E17D41C3A4871FFDFD6B1EF99C7 /* MDPluginManager.m */,
-				589EE4B267CDA1EC75A5EA2458A89822 /* MDSafe.h */,
-				AA47380D811EE65FA537D64F03F06675 /* MDSafe.m */,
-				D5B185DEB4F9FEF110A8DDDF928AFF49 /* MessengerDog.h */,
-				E3DC6ACABD2B29DE8DB6A828E676CDF3 /* NSObject+MessengerDog.h */,
-				194222DC75D359E7E0A3E73B9850FFBA /* NSObject+MessengerDog.m */,
-				CF982CE37312E6730CB99AC54F3EDA5B /* Pod */,
-				277340D9F7D6B16A2F4D6B761F32CB1F /* Support Files */,
+				7E9FA5ACB2396BF8655E8F9328BDEFCB /* MDAnnotation.h */,
+				4EF7D6E7CE1032D45E47025302C3AEC7 /* MDAnnotation.m */,
+				2DF64DF02A4C97E7E563632D55F4B902 /* MDBasePlugin.h */,
+				32D34D716DCC216BF25FB066AF66A987 /* MDBasePlugin.m */,
+				86218502BBA1A2A5D3694CE26F07BECD /* MDCommon.h */,
+				97C009A8B12301EF0632345050665A6C /* MDCommon.m */,
+				8927F679A1D027712FC208A9578E22DA /* MDConfig.h */,
+				085A3A03AFCA871C85BF3FE30070BD75 /* MDConfig.m */,
+				2230457C7F5692BD1CF9FD0377CCBEC4 /* MDInjectJS.h */,
+				EDFAD4F8EB8A2D01A6D15CAC8E8F863A /* MDInjectJS.m */,
+				198E9E70BEF512676D68A05824ABA540 /* MDPluginFilter.h */,
+				A67E1AD49C82B662DF7D6FE164EEA860 /* MDPluginFilter.m */,
+				9706079D63EB62FC87AB144AFF0FB13C /* MDPluginManager.h */,
+				2A409BDF3998ED43FD179A6BD178925D /* MDPluginManager.m */,
+				4AF3FD36341955D7D6BB05456C866353 /* MDSafe.h */,
+				DB706A2F1371934E8AFE73C245C6209A /* MDSafe.m */,
+				43392C9F3E1219068E28F3946BE9D5C4 /* MessengerDog.h */,
+				806E53980FBA485F5BEF4AEC23DD4A60 /* NSObject+MessengerDog.h */,
+				58AA1B4539CD24AB5B2999376EFD0073 /* NSObject+MessengerDog.m */,
+				473ACF274AB01DF8DA7049A0A76D3598 /* Support Files */,
 			);
 			name = MessengerDog;
-			path = "/Users/lion/sourcetree-workspace/librarys/MessengerDog";
-			sourceTree = "<absolute>";
+			path = MessengerDog;
+			sourceTree = "<group>";
 		};
 		689BC97591D9155A7C936E7EB6BA33D4 /* Pods-Js2NativeDemo */ = {
 			isa = PBXGroup;
@@ -178,21 +174,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				50C71F57081D55DCC49B300FD0E1A521 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2983E7C6B8E537077AD91D58ADD15C91 /* Pods */,
 				547F9FA4A3F6B298AFEB9E4F41731B12 /* Products */,
 				3077E10423F0A1AA8EEC99ACE9C56107 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF982CE37312E6730CB99AC54F3EDA5B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7688B1F784A5A026C98EC8651092F732 /* LICENSE */,
-				966EEF97084C75FCE074F6D0B34B2F5C /* MessengerDog.podspec */,
-				5A4F76FD3E3874E3C20EAA9CCF5A0E37 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -260,7 +246,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D24302128EF2E1AFEFA8719395698DC1 /* PBXTargetDependency */,
+				74123BA3FE1E06F95B33B369A35DD7EF /* PBXTargetDependency */,
 			);
 			name = "Pods-Js2NativeDemo";
 			productName = "Pods-Js2NativeDemo";
@@ -324,18 +310,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D24302128EF2E1AFEFA8719395698DC1 /* PBXTargetDependency */ = {
+		74123BA3FE1E06F95B33B369A35DD7EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MessengerDog;
 			target = 11F7366A58FBEE7734082C266FA08A9E /* MessengerDog */;
-			targetProxy = D4686304CC16B9929693C1FF4F588A91 /* PBXContainerItemProxy */;
+			targetProxy = 3A63214E5101B5A8400F70C62BC21273 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		197D11ACA413957FAC2AA11F4266CD3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A6D293DCA4F57510F771342802D16D3 /* MessengerDog.debug.xcconfig */;
+			baseConfigurationReference = 4B245B2DD139E0D711D8E8CD73CA8766 /* MessengerDog.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -423,7 +409,7 @@
 		};
 		30CA5FF7EE80517DD9E4DF0C694AC271 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66505B8AA0D5D058DC6D314006F25A1F /* MessengerDog.release.xcconfig */;
+			baseConfigurationReference = 5C0B8B592328AD4CA0AE96437D9C76B3 /* MessengerDog.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

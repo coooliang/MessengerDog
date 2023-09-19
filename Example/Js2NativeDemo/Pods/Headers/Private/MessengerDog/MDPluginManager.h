@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/MDPluginManager.h
+../../../MessengerDog/MessengerDog/Classes/MDPluginManager.h

@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/MDConfig.h
+../../../MessengerDog/MessengerDog/Classes/MDConfig.h

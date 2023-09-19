@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/MDBasePlugin.h
+../../../MessengerDog/MessengerDog/Classes/MDBasePlugin.h

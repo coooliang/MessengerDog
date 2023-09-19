@@ -1,1 +1,1 @@
-../../../../../../MessengerDog/Classes/MDInjectJS.h
+../../../MessengerDog/MessengerDog/Classes/MDInjectJS.h
