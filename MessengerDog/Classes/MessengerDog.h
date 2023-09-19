@@ -1,7 +1,7 @@
 //// 
 //  MessengerDog.h
-//  Pods
-//  Created by ___ORGANIZATIONNAME___ on 2023/6/13
+//  Version 1.0.1
+//  Created by coooliang on 2023/9/19
 //
 
 #import "MDAnnotation.h"
